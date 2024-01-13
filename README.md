@@ -1,8 +1,3 @@
-# K8S-Course
-K8S Course and links
-
-
-
 # Kubernetes Course
 
 This project contains labs and links for the Kubernetes course. In this course we will deploy a kubernetes cluster. 
