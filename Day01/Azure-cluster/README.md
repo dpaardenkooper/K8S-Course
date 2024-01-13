@@ -16,10 +16,10 @@ All commands exercise are executed into Azure Cloud shell. Azure Cloud Shell req
 
 ### Open cloud shell
 
-![alt text](/K8S-Course/Day01/Azure-cluster/azure-portal-cloud-shell.png "Azure Cloud Shell")
+![alt text](/Day01/Azure-cluster/azure-portal-cloud-shell.png "Azure Cloud Shell")
 
 ### Create a new storage account 
-![alt text](/K8S-Course/Day01/Azure-cluster/azure-portal-storage-account.png "Azure Cloud Shell")
+![alt text](/Day01/Azure-cluster/azure-portal-storage-account.png "Azure Cloud Shell")
 
 
 Let's set a environment variable for the location where we will use to start the resources.
@@ -54,7 +54,7 @@ az group create --name rg-k8s-course
 ## Install Helm
 
 Helm is a tool that streamlines installing and managing Kubernetes applications and resources.
-Click [here](/K8S-Course/helm/) to read more about Helm. 
+Click [here](/Day01/helm/) to read more about Helm. 
 
 ```bash
 export VERIFY_CHECKSUM=false && \
