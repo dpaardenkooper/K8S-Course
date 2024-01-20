@@ -19,7 +19,7 @@ All commands exercise are executed into Azure Cloud shell. Azure Cloud Shell req
 ![alt text](/Day01/Azure-cluster/azure-portal-cloud-shell.png "Azure Cloud Shell")
 
 ### Create a new storage account 
-![alt text](/Day01/Azure-cluster/azure-portal-storage-account.png "Azure Cloud Shell")
+![alt text](/Azure-cluster/azure-portal-storage-account.png "Azure Cloud Shell")
 
 
 Let's set a environment variable for the location where we will use to start the resources.

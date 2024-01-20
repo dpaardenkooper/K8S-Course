@@ -7,6 +7,9 @@ Inside Kubernetes:
     - Kubernetes: 
     - Other: https://dzone.com/articles/10-best-practices-for-using-kubernetes-network-pol
     - Calico: https://docs.tigera.io/calico/latest/network-policy/get-started/calico-policy/calico-network-policy
+    - Workshops:
+        - Tigera: https://github.com/tigera-solutions/calicocloud-aks-workshop
+        - Edi Recica: https://github.com/erecica/Calico-AKS-BYOCNI
 - Kubernetes Dashboard
     - Install: https://github.com/kubernetes/dashboard
     - Permissions: https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/README.md
@@ -45,6 +48,24 @@ Inside Kubernetes:
 <br>
 
 Outside Kubernetes:
+- Docker: 
+    - Docker best practices: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+- Kubesec: 
+    - Static code analysis: https://kubesec.io/
+- Opa policies
+    - whitelist registries: https://github.com/killer-sh/cks-course-environment/blob/master/course-content/supply-chain-security/secure-the-supply-chain/whitelist-registries/opa/k8strustedimages_template.yaml
+- syscalls
+    - linux syscalls manual: https://man7.org/linux/man-pages/man2/syscalls.2.html
+    - falco docs: https://falco.org/docs/
+- Auditing
+    - Kubernetes: https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/
+- kernal hardening:
+    - App Armor: https://kubernetes.io/docs/tutorials/security/apparmor/
+    - Seccomp: https://kubernetes.io/docs/tutorials/security/seccomp/
+- Aqua: 
+    - Aqua best practices: https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-security-best-practices-10-steps-to-securing-k8s/
+
+
 
 
 <br>
