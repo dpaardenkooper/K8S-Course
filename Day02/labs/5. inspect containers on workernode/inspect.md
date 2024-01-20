@@ -1,13 +1,10 @@
 # What if you had acces to the workernode
-
 The purpose of this lab is to see info which is available on the worker node.
 
 ## Required for this course
-
 A Running Kubernetes environment with access to a workernode.
 
 ## Create a simple pod
-
 In this example we create a pod with a secret in it.
 
 ```bash
