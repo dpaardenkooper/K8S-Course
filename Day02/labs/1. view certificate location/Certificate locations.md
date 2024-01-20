@@ -11,7 +11,7 @@ Log into your master or worker node.
 
 ```bash
 cd /etc/kubernetes/pki
-ll
+ls
 ```
 
 Depending on which node you are, you will see all the certificates which are used in Kubernetes.
