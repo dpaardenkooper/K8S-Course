@@ -48,7 +48,7 @@ If the upgrade didn't work as planed, you can mostly revert back to the old edit
 Use the following command to upgrade your chart.
 
 ```bash
-helm rollback ingress-nginx --version 4.3.0 ingress-nginx/ingress-nginx --namespace ingress-nginx   
+helm rollback ingress-nginx -n ingress-nginx
 ```
 
 
@@ -56,5 +56,5 @@ helm rollback ingress-nginx --version 4.3.0 ingress-nginx/ingress-nginx --namesp
 If want to remove the helm chart, you can use the following command.
 
 ```bash
-helm uninstall ingress-nginx --version 4.3.0 ingress-nginx/ingress-nginx --namespace ingress-nginx 
+helm uninstall ingress-nginx -n ingress-nginx
 ```
